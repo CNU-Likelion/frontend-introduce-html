@@ -1,6 +1,6 @@
-#Learning throuhg mission..
+# Learning throuhg mission..
 
-##깃 관련 내용
+## 깃 관련 내용
 - fork를 통해 다른 사람이 올려둔 내용을 내 레퍼지토리로 가져올 수 있음
 - git clone (래퍼지토리 주소)를 통해 특정 래퍼지토리와 나의 로컬을 연결해 데이터를 복사해 올 수 있음(*단 여기서 git clone (래퍼지토리 주소) 뒤에 꼭 '.' 붙여야 됨)
   
