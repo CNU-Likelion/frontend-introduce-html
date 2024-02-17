@@ -1,28 +1,19 @@
-# 👋 자기소개(HTML)
+# 1주차 학습 내용
 
-## 💻 진행 방식
+## 요구사항
+- 시맨틱 태그를 고려한 자기소개 페이지 생성
 
-- 미션은 요구 사항, 과제 진행 요구 사항으로 구성되어있다.
-- 두 요구 사항을 만족해야한다.
-
-## 🧑‍💻 요구 사항
-
-- [디자인 시안](https://www.figma.com/file/UHYXnffeSYlNgqeNK6onLE/%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83?type=design&node-id=0%3A1&mode=design&t=rZLtMMqqzJK2Sbvl-1)을 바탕으로 자기소개 페이지를 완성한다.
-- **Amout me** 페이지는 `index.html`에 작성한다. 그 외의 페이지는 `pages` 폴더에 관리한다.
-- 카테고리를 클릭하면 해당 페이지로 이동하도록 구현한다.
-- SNS 이미지를 클릭하면 본인의 SNS로 이동하도록 구현한다.
-- 문서의 언어는 `ko`로 설정한다.
-- 각 페이지의 title은 `[학번] 이름 | 카테고리` 형식을 지켜 작성한다. <br />
-  ex) [202112345] 아무개 | About me
-- **시멘틱 태그**를 고려하여 작성한다.
-  - 시각 장애인분들이 우리의 문서를 본다는 것을 염두하여 작성한다.
-- `div`, `span`태그의 사용을 최대한 지양한다.
-- README.md 작성법은 [다음](https://commonmark.org/help/)을 참고한다.
-- 시멘틱 태그의 구조와 예시는 [MDN](https://developer.mozilla.org/ko/docs/Glossary/Semantics), [W3C](https://www.w3schools.com/html/html5_semantic_elements.asp)의 공식 문서를 참고한다.
-- 1주차 과제는 **2월 18일 자정**까지 제출한다.
-
-## 🚀 과제 진행 요구 사항
-
-- 미션은 **frontend-introduce-html** 저장소를 fork하고 clone하여 시작한다.
-- 미션 완료 이후 `docs/README.md`에 미션을 통해 배운 내용들을 작성한다.
-- 과제 진행 및 제출 방법은 **[미션 진행 가이드](https://www.notion.so/f0571981555d4509839b9db8d5382162?pvs=21)** 문서를 참고한다
+## 배운 내용
+- <article>
+<aside> : 광고 등과 같은 메인 이외의 내용을 담을때 사용하는 태그.
+<details> : 사용자가 보거나 숨길 수 있는 상호작용이 가능한 추가 세부 정보를 담는 태그.
+<figcaption> : figure의 간략한 설명을 포함하는 태그.
+<figure> : 이미지와 같은 컨텐츠를 포함하는 태그.
+<footer> : 페이지의 하단 부분을 정의하는 태그.
+<header> : 페이지의 상단 부분을 정의하는 태그.
+<main> : 한번만 사용가능한 메인컨텐츠를 담는 태그.
+<mark> : 중요한 텍스트를 마킹하는 인라인 시맨틱 태그.
+<nav> : 탐색 링크가 포함된 부분을 담는 태그.
+<section> : 섹션을 나눌떄 사용하는 태그.
+<summary> : detail과 함께 사용하는 태그.
+<time> : 시간을 나타내는 인라인 시맨틱 태그. 
