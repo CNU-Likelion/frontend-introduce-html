@@ -1,4 +1,4 @@
-#box{
+.box{
     background:#E2E2E2;
     width: 400px;
     height: 600px;
@@ -6,7 +6,7 @@
     margin-right:auto;
 }
 
-#inbox1{
+.inbox1{
     background:gray;
     width:400px;
     height: 50px;
