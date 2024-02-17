@@ -18,5 +18,5 @@
 
 &nbsp;
 
-- id 태그와 class 태그의 차이 : id는 한 페이지에 하나의 정의로 하나의 태그만 사용<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class는 한 페이지에 반복적으로 사용되는 것에 사용
+- id 태그와 class 태그의 차이
+  -  id는 한 페이지에 하나의 정의로 하나의 태그만 사용 / class는 한 페이지에 반복적으로 사용되는 것에 쓰임
