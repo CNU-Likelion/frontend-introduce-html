@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* Instagram의 배경 색상 */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff; /* Instagram의 헤더 배경 색상 */
+    border-bottom: 1px solid #dbdbdb; /* Instagram의 헤더 아래쪽 테두리 색상 */
+}
+
+#page-name {
+    font-size: 1.5em;
+    color: #262626; /* Instagram의 주요 텍스트 색상 */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #262626; /* Instagram의 링크 색상 */
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; /* 목표를 가로로 배치 */
+}
+
+h1 {
+    font-size: 2em; /* "2024 Goals" 글자 크기 */
+    text-align: center; /* 헤더를 센터로 정렬 */
+}
+
+.goal {
+    width: 30%; /* 목표 박스의 폭 설정 */
+    border: 1px solid #dbdbdb; /* 목표 박스의 테두리 설정 */
+    padding: 10px;
+    text-align: center; /* 목표 텍스트를 센터로 정렬 */
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* Instagram의 배경 색상 */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff; /* Instagram의 헤더 배경 색상 */
+    border-bottom: 1px solid #dbdbdb; /* Instagram의 헤더 아래쪽 테두리 색상 */
+}
+
+#page-name {
+    font-size: 1.5em;
+    color: #262626; /* Instagram의 주요 텍스트 색상 */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #262626; /* Instagram의 링크 색상 */
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 텍스트를 센터로 정렬 */
+}
+
+h1 {
+    font-size: 2em; /* "Hobbies" 글자 크기 */
+    text-align: center; /* 헤더를 센터로 정렬 */
+}
+
+.hobby {
+    margin-bottom: 20px; /* 취미 사이의 간격 */
+    width: 50%; /* 취미 섹션의 폭 설정 */
+    text-align: center; /* 취미 텍스트를 센터로 정렬 */
+}
