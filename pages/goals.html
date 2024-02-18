@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[202001935] 이건하 | Goals</title>
+    <!-- 필요한 경우 추가적인 메타 태그 및 스타일 시트 등을 여기에 추가하세요 -->
+    <style>
+        /* 추가한 CSS 스타일 */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* 내용을 수직으로 정렬 */
+            height: 100vh; /* 화면 전체 높이로 설정하여 수직 중앙 정렬 */
+            margin: 0; /* body의 기본 margin 제거 */
+        }
+        header {
+            background-color: lightgrey; /* 상단바 배경색을 회색으로 설정 */
+            padding: 10px;
+            width: 100%; /* 상단바 너비를 화면 전체로 설정 */
+            position: fixed; /* 페이지를 스크롤해도 상단바가 고정되도록 설정 */
+            top: 0; /* 상단바를 화면 상단에 고정 */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .title {
+            flex-grow: 1;
+        }
+        nav {
+            margin-left: 20px;
+            display: flex;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .blocks {
+            display: flex; /* 블록들을 가로로 나란히 배치 */
+            justify-content: space-around; /* 블록들을 가로 방향으로 고르게 배치 */
+            width: 100%; /* 블록들을 가로로 꽉 차게 설정 */
+            margin-top: 50px; /* 블록과 상단바 사이 여백 설정 */
+        }
+        .block {
+            width: 300px; /* 블록의 너비를 설정 */
+            padding: 20px; /* 내용과 테두리 사이 여백 설정 */
+            background-color: white; /* 블록 배경색을 흰색으로 설정 */
+            text-align: center; /* 텍스트 중앙 정렬 */
+        }
+        .block + .block {
+            margin-left: 20px; /* 두 번째 블록부터 왼쪽 여백 설정 */
+        }
+        .block h2 {
+            background-color: darkgrey; /* 제목 배경색을 더 진한 회색으로 설정 */
+            color: white; /* 제목 글자색을 흰색으로 설정 */
+            padding: 10px; /* 제목의 위아래 여백 설정 */
+            margin: 0; /* 제목의 기본 margin 제거 */
+        }
+        .block p {
+            padding: 20px; /* 내용과 테두리 사이 여백 설정 */
+            background-color: lightgrey; /* 내용 배경색을 더 연한 회색으로 설정 */
+            color: black; /* 내용 글자색을 검은색으로 설정 */
+            margin: 0; /* 내용의 기본 margin 제거 */
+        }
+        .block-content {
+            background-color: lightgrey; /* 내용 배경색을 더 연한 회색으로 설정 */
+            padding: 20px; /* 내용과 테두리 사이 여백 설정 */
+            margin-top: 0px; /* 내용 위 여백 설정 */
+            margin-bottom: 30px; /* 내용 아래 여백 설정 */
+            text-align: center; /* 텍스트 중앙 정렬 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">[202001935] 이건하 | Goals</h1>
+        <nav>
+            <a href="index.html">About me</a>
+            <a href="pages/hobby.html">Hobby</a>
+            <a href="pages/goals.html">Goals</a>
+        </nav>
+    </header>
+
+    <section class="blocks">
+        <article class="block">
+            <h2>학업</h2>
+            <section class="block-content">
+                <p>학점 4점대</p>
+            </section>
+        </article>
+        <article class="block">
+            <h2>건강</h2>
+            <section class="block-content">
+                <p>체지방 10% 이하</p>
+            </section>
+        </article>
+        <article class="block">
+            <h2>역량</h2>
+            <section class="block-content">
+                <p>창업경진대회 우승</p>
+            </section>
+        </article>
+    </section>
+
+    <footer>
+        <!-- 푸터 내용을 추가하세요 -->
+    </footer>
+</body>
+</html>
